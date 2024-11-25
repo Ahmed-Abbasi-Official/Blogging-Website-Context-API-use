@@ -13,7 +13,6 @@ const Navbar = () => {
   useEffect(()=>console.log(isBurger),[isBurger])
 
 
-
   return (
     <header className="bg-black text-white ">
       <nav className="p-4 max-w-7xl mx-auto flex gap-14 justify-between items-center flex-wrap  ">

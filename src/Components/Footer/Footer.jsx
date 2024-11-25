@@ -48,7 +48,7 @@ const Footer = () => {
                   Category
                 </p>
                 <ul className="mt-2 space-y-2">
-                  {category.slice(0, 4).map((val, idx) => (
+                  {category.slice(0,4).map((val, idx) => (
                     <li key={idx}>
                       <a
                         href="/"

@@ -7,7 +7,7 @@ import Footer from "./Components/Footer/Footer";
 
 
 function App() {
-  const [NavItemContext, setNavitemContext] = useState({
+  const [NavItemContext,setNavitemContext] = useState({
     navItem: [
       { path: "/", link: "Home" },
       { path: "/services", link: "Services" },
@@ -27,7 +27,7 @@ function App() {
 
   return (
     <NavItemProvider value={NavItemContext}>
-      <Navbar />
+      <Navbar  />
       <Outlet />
       <Footer/>
     </NavItemProvider>
